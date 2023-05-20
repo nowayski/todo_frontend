@@ -1,11 +1,11 @@
-import React from "react";
-import Welcome from "./components/Welcome";
+import TodoList from "./components/TodoList";
+import "./css/main.css";
 
 export default function App(): JSX.Element {
   return (
     <>
       <div>
-        <Welcome />
+        <TodoList />
       </div>
     </>
   );
